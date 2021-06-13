@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='em'>
+     <meta charset="UFT-8">
+     <meta http-equiv="X-UA-Compatible" content="IE-edge">
+     <meta name="viewport" content="width-device-width,initial-scale=1.0">
+
+
+<head>
+    
+    <title> SNAKE AND LADDERS  </title>
+    <img src="https://media3.giphy.com/media/jow0htwvROxzepF0UZ/giphy.gif" height="200">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGzh3rkWWMWrpYmKtUTMGACC1U9m8joqOpQ&usqp=CAU" alt="alternatetext" height="200" width="250" align="right">
+
+<style>
+
+         .dice {
+              border:2px solid black;
+              display:inline-block;
+              padding: 25px;
+              font-size: 1.6 rem;
+          }
+
+          .col {
+              border: 2px solid black;
+              height: 62px;
+               width: 62px;
+               display:inline-block;
+
+          }
+         .button  {
+            border: 2px solid black;
+         }
+
+          .col.player{
+                background-color: rgba(247, 0, 255, 0.5);
+          }
+        .col.snake-el {
+            background-color : rgb(236, 25, 25);
+
+        }
+        .col.ladder-el {
+            background-color : #ffa600;
+
+        }
+        .col.winner-el{
+            background-color: rgba(229, 255, 0, 0.5);
+        }
+
+          div {text-align: center;}
+
+          body {
+                background-color: 	rgb(211,211,211);
+            }
+
+    </style>
+
+</head>
+
+<body>
+        <div class="game-container">
+            <section id="board"></section> 
+            <br>
+           <hr/>
+            <div class="dice"> 0</div>
+          
+            <button id="roll-dice" ><b style = font-size:17px;>&#x1f3b2;ROLL DICE</b></button>
+       
+        </div>
+
+         
+        <h1> <marquee> LIFE IS LIKE A GAME OF SNAKES&#128013; AND LADDERS&#128640;.LEARN TO BEFRIEND THE SNAKES.&#129395</marquee></h1>
+          <script src="game.js"> </script>
+</body>
+</html>
